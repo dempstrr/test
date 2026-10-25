@@ -4,6 +4,10 @@
   font-display: swap;
 }
 
-* {
+/* apply continuum bold font across discord mobile UI */
+*, 
+[class*="text-"], 
+[class*="messageContent-"],
+[class*="username-"] {
   font-family: 'contb', system-ui, -apple-system, sans-serif !important;
 }
