@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'contb';
+  src: url('https://static.wfonts.com/data/2015/10/06/continuum/contb.ttf') format('truetype');
+  font-display: swap;
+}
+
+* {
+  font-family: 'contb', system-ui, -apple-system, sans-serif !important;
+}
